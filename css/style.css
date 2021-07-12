@@ -104,11 +104,10 @@ nav ul li{
 button {
     background-color: #4ca8af; /* Green */
     border: none;
-    color: white;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
@@ -196,4 +195,17 @@ button {
   aside > button{
       padding: 10px 20px;
       display: block;
+  }
+
+  .green{
+      background: #50885e;
+
+  }
+
+  .red{
+      background:#f8c7c7;
+  }
+
+  .red a {
+      color: #000;
   }
